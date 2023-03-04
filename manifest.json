@@ -1,19 +1,18 @@
 {
-   "name": "Dark Discord",
-   "description": "An actual dark mode for discord.",
-   "id": "eternal.dark-discord",
-   "icon": "assets/icon.png",
-   "version": "1.0.0",
-   "author": "eternal",
-   "authors": {
-      "name": "eternal",
-      "id": "263689920210534400"
-   },
-   "theme": "src/index.scss",
-   "discord": "HQ5N7Rcajc",
-   "main": "src/source.css",
-   "splash": "src/splash.css",
-   "splashTheme": "src/splash.css",
-   "license": "Unlicensed",
-   "consent": false
+  "id": "dev.replugged.dark-discord",
+  "name": "Dark Discord",
+  "description": "An actual dark mode for discord.",
+  "author": {
+    "name": "eternal",
+    "discordID": "263689920210534400",
+    "github": "discord-modifications"
+  },
+  "version": "1.0.0",
+  "updater": {
+    "type": "github",
+    "id": "X-rays5/dark-discord"
+  },
+  "license": "Unlicensed",
+  "type": "replugged-theme",
+  "main": "DarkDiscord.theme.css"
 }
